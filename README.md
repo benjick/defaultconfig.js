@@ -1,4 +1,4 @@
-# defaultconfig
+# defaultconfig [![Build Status](https://travis-ci.org/benjick/defaultconfig.js.svg?branch=master)](https://travis-ci.org/benjick/defaultconfig.js)
 
 Create a configuration factory
 
