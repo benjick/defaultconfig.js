@@ -4,17 +4,20 @@ Create a configuration factory
 
 ## Usage
 
-```js
-import defaultconfig from '../';
+`npm install --save defaultconfig`
 
-const config = {
+```js
+import defaultconfig from 'defaultconfig';
+
+// create a function factory with a default config
+const configFactory = defaultconfig({
   user: {
     firstName: 'max',
     lastName: 'malm',
   }
-}
+});
 
-const configFactory = defaultconfig(config);
+// supply the changes you wish to merge into your default config
 const config = configFactory({
   user: {
     lastName: 'smith',
