@@ -1,3 +1,4 @@
+/* eslint-disable */
 const instanbul = require('istanbul');
 const MochaSpecReporter = require('mocha/lib/reporters/spec');
 
