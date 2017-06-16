@@ -1,6 +1,6 @@
 {
   "name": "defaultconfig",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Function to create defaultconfig factory",
   "main": "dist/defaultconfig.js",
   "module": "dist/defaultconfig.mjs",
