@@ -31,4 +31,8 @@ describe('Test', () => {
     strictEqual(newConfig.user.name, 'benjick');
     strictEqual(newConfig.user.lastName, 'malm');
   });
+
+  it('does not tamper with original object', () => {
+    strictEqual(config.user.name, 'max');
+  });
 });
