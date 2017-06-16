@@ -1,5 +1,5 @@
 import { strictEqual } from 'assert';
-import defaultconfig from '../';
+import defaultconfig from '../lib';
 
 const config = {
   user: {
